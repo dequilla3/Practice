@@ -1,0 +1,289 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+font-family: Century Gothic;
+}
+
+.preload img{
+	width: 50px;
+}
+
+.preload{
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: opacity 0.5s ease;
+}
+
+
+.preloader-finish{
+	opacity: 0;
+	pointer-events: none;
+}
+
+footer{
+	color: white;
+}
+
+
+.h3-css{
+	font-family: Century Gothic;
+	text-align: center;
+	font-style: normal;
+	background: black;
+	padding: 20px;
+}
+
+nav{
+	background: darkslategray;
+	height: 70px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	color: white;
+	margin-right: 20px;
+	font-size: 13pt;
+	line-height: 65px;
+	text-transform: uppercase;
+}
+
+a.home{
+	margin-right: 50px;
+	font-size: 15pt;
+}
+
+
+a.home:hover{
+	font-weight: bold;
+}
+
+a.other{
+	margin-right: 50px;
+}
+
+a.other:hover{
+	font-weight: bold;
+}
+
+
+.login-btn{
+	background: dodgerblue;
+	padding: 7px;
+	border-radius: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: .5s;
+	margin-left: 50px;
+}
+
+.login-btn:hover{
+	background: fuchsia;
+	padding: 7px;
+	border-radius: 2px;
+	padding-left: 18px;
+	padding-right: 18px;
+	transition: .5s;
+}
+
+.signup-btn{
+	background: blue;
+	padding: 7px;
+	border-radius: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: .5s;
+}
+
+.signup-btn:hover{
+	background: pink;
+	padding: 7px;
+	border-radius: 2px;
+	padding-left: 18px;
+	padding-right: 18px;
+	transition: .5s;
+}
+
+.img-logo{
+	float: left;
+	height: 80px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.label-logo{
+	font-size: 20pt;
+	color: white;
+	line-height: 70px;
+	cursor: pointer;
+}
+
+.login-input-form{
+	width: 50%;
+	background: whitesmoke;
+	margin-bottom: 50px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 1px 10px 0 rgba(0,0,0,0.10);
+	padding-bottom: 15px;
+	padding-top: 15px; 
+}
+
+.login-btn-style{
+	margin-bottom: 50px;
+	padding: 15px 50px;
+	background: dodgerblue;
+	color: white;
+	border: 0;
+	cursor: pointer;
+	transition: .2s;
+}
+.login-btn-style:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 2px 10px 0 rgba(0,0,0,0.19);
+	opacity: 1;
+}
+
+.login-input-style{
+	margin-bottom: 10px;
+	width: 40%;
+	height: 40px;
+	border: 0;
+	text-indent: 10px;
+	border-radius: 3px;
+	font-size: 13pt;
+	border: 1px solid #ccc;
+}
+
+.logout-btn{
+	background: brown;
+	padding: 7px;
+	border-radius: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: .5s;
+	margin-left: 50px;
+}
+
+.logout-btn:hover{
+	background: maroon;
+}
+
+.greetings-h2{
+	font-weight: normal;
+	font-family: Century Gothic;
+	padding: 30px 30px;
+	background: darkslategray;
+}
+
+.greetings-img{
+	height: 50%;
+	width: 30%;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 40px;
+	border-radius: 60%;
+	float: left;
+}
+
+.parag-intro{
+	margin-top: 100px;
+	font-size: 40pt;
+	color: white;
+	font-style: italic;
+}
+
+.container{
+	background: firebrick;
+	padding-bottom: 700px;
+}
+
+.blog-content{
+	margin-top: 100px;
+	width: 20%;
+	height: 250px;
+	background: darkslategray;
+	margin-left: 25px;
+	cursor: pointer;
+	float: left;
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 2px 20px 0 rgba(0,0,0,0.20);
+	transition: .5s;
+	margin-bottom: 100px;
+	box-sizing: border-box;
+}
+
+.blog-content:hover{
+	height: 300px;
+	width: 25%;
+}
+
+.blog-content img{
+	height: 200px;
+	width: 100%;
+	transition: .5s;
+}
+
+.blog-content img:hover{
+	height: 250px;
+	width: 100%;
+}
+
+.sub-con{
+	margin-top: 100px;
+	margin-left: 10px;
+	padding-left: 100px;
+}
+
+.parag-desc{
+	color: white;
+	font-size: 13pt;
+	margin-left: 5px;
+	font-style: italic;
+}
+
+.container-login{
+	padding-bottom: 700px;
+	background: darkslategray;
+	padding-top: 100px;
+}
+
+.container-blog{
+	padding-bottom: 700px;
+}
+
+.blog-parag{
+	margin-right: 20px;
+	margin-left: 20px;
+	font-family: Century Gothic;
+	font-size: 13pt;
+	width: 50%;
+	text-align: justify;
+	background: white;
+}
+
+.parag{
+	margin-left: 20px;
+}
+
+.div-bl{
+	
+}
+
+.p-signup-error{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: brown;
+	color: white;
+	font-size: 15pt;
+}
